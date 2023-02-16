@@ -4,3 +4,15 @@
 // Track high scores using local storage
 // Clear all high scores using local storage
 
+
+// Timer function
+function timerCountdown() {
+    var timeLeft = 75;
+}
+
+var timeInterval = setInterval (function() {
+    if (timeLeft >= 0) {
+        clearInterval (timeInterval);
+        displayFinalScore();
+    } 1000;
+});
