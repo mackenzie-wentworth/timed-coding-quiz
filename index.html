@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Coding Quiz Challenge</title>
+    <link rel="stylesheet" type=text/css href="./assets/css/style.css">
+
 </head>
 
 <body>
@@ -16,35 +18,38 @@
     <!-- Build an end-view with high scores between users, with option to 'go back' and 'clear high scores.' -->
     <div id="page-container">
 
-    <header>
-        <h1 class="left"> <a id=leaderboard-link>View Highscores </a></h1>
-        <h1 id="currentTime" class="timer right">Time</h1>
-    </header>
+        <header>
+            <h1 class="left"> <a id=leaderboard-link>View Highscores </a></h1>
+            <h1 id="currentTime" class="timer right">Time</h1>
+        </header>
 
-    <section>
-        <div id="questionsSection">
-            <div id="quiz-container">
-                <div class="card-deck">
-                    <div class="card-body">
-                        <h1>JavaScript Coding Quiz Challenge</h1>
-                        <p>Test your knowledge on JavaScript fundamentals through the following timed quiz. Once you
-                            click 'Start Quiz,'
-                            you will have 75 seconds to answer a series of multiple-choice questions. Please note that
-                            your time will be
-                            penalized by ten seconds for each incorrect answer, and your time will be reflected in your
-                            final score.</p>
-                        <p>Good luck!</p>
+        <section>
+            <div id="questionsSection">
+                <div id="quiz-container">
+                    <div class="card-deck">
+                        <div class="card-body">
+                            <h1>JavaScript Coding Quiz Challenge</h1>
+                            <p>Test your knowledge on JavaScript fundamentals through the following timed quiz. Once you
+                                click 'Start Quiz,'
+                                you will have 75 seconds to answer a series of multiple-choice questions. Please note
+                                that
+                                your time will be
+                                penalized by ten seconds for each incorrect answer, and your time will be reflected in
+                                your
+                                final score.</p>
+                            <p>Good luck!</p>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <button id="startTimer" type="button"> Start Quiz!</button>
                     </div>
                 </div>
-                <div class="controls">
-                    <button id="startTimer" type="button"> Start Quiz!</button>
-                </div>
-            </div>
 
-    </section>
-    <script src="./assets/js/script.js"></script>
+        </section>
 
     </div>
+
+    <script src="./assets/js/script.js"></script>
 
 </body>
 
