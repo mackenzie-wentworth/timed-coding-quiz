@@ -1,0 +1,72 @@
+* {
+    background-color: white;
+}
+
+/* Global */
+html {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+:root {
+    --indigo: #4B0082;
+    --white: white; 
+  }
+
+body {
+   
+    background-color: white;  
+}
+
+header {
+    color: var(--indigo);
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1.left {
+    color: var(--indigo);
+    padding-left: 20px;
+    font-size: 2.0rem;
+    display: flex;
+}
+
+header h1.right {    
+    color: var(--indigo);
+    padding-right: 20px;
+    font-size: 2.0rem;
+    display: flex;
+}
+
+/* quiz  */
+.quiz {
+    width: 900px;
+}
+    
+ul, li, h1, p, div {
+    color: black;
+    background-color: white;
+}
+
+ul, li {
+    text-align: center;
+    list-style-type: none;
+    background-color: white;
+}
+
+.card-body, p.text {
+    /* background-color: transparent; */
+    color: black;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.btn {
+    background-color: var(--indigo);
+    border-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 25px;
+
+}
