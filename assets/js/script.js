@@ -250,3 +250,32 @@ function quizComplete() {
 
     });
 }
+
+const leaderboardLink = document.querySelector("#leaderboard-link");
+leaderboardLink.addEventListener("click", showHighScores);
+
+
+function showHighScores() {
+    questionsSection.innerHTML = "";
+    currentTime.innerHTML = "";
+    ulEl.innerHTML = "";
+    console.log(allScores);
+
+    var h2El = document.createElement("h2");
+    h2El.setAttribute("id", "h2El");
+    h2El.textContent = "High Scores!";
+    var ul = document.querySelector("#highScoresUl");
+    ul.innerHTML = "";
+
+
+    questionsSection.appendChild(h2El);
+
+    for (let i = 0; i < allScores.length; i++) {
+        const el = allScores[i].initials + " " + allScores[i].score;
+        var li2 = document.createElement("li");
+        li2.textContent = el;
+        ul.appendChild(li2);
+
+    }
+
+}
