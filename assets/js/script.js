@@ -237,6 +237,7 @@ function quizComplete() {
             // Adds score to final page
 
             for (let i = 0; i < allScores.length; i++) {
+                console.log(allScores.length);
                 const el = allScores[i].initials + " " + allScores[i].score;
                 var li2 = document.createElement("li");
                 li2.textContent = el;
