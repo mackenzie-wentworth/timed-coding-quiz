@@ -233,12 +233,14 @@ function quizComplete() {
             allScores.push(finalScore);
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
+            
 
             // Adds score to final page
 
             for (let i = 0; i < allScores.length; i++) {
                 console.log(allScores.length);
                 const el = allScores[i].initials + " " + allScores[i].score;
+                console.log("All scores: " + el);
                 var li2 = document.createElement("li");
                 li2.textContent = el;
                 var ul = document.querySelector("#highScoresUl");
