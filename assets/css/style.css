@@ -61,10 +61,9 @@ li {
 
 .card-body,
 p.text {
-    /* background-color: transparent; */
     color: black;
     font-size: 1.5rem;
-    font-family: sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .btn {
@@ -74,11 +73,13 @@ p.text {
     cursor: pointer;
     padding: 20px;
     border-radius: 25px;
-
 }
 
-/* Intro section styling */
+.btn:hover {
+    opacity: 0.5;
+}
 
+/* First Page CSS */
 
 #quizIntro {
     padding-top: 70px;
@@ -86,8 +87,7 @@ p.text {
 
 
 
-/* Questions section styling */
-
+/* Question Section CSS */
 h2,
 div#questionSection {
     color: black;
@@ -116,8 +116,6 @@ div#questionsSection::after {
     padding-top: 20px;
 
 }
-
-
 
 #questionli {
     margin: 10px;
@@ -195,10 +193,6 @@ ul#questionsUl {
     margin-top: 120px;
 }
 
-.onomatopoetica {
-    color: red;
-}
-
 #content-wrap {
     padding-bottom: .5rem;
     /* Footer height */
@@ -214,7 +208,6 @@ ul#questionsUl {
     p.text {
         background-color: white;
         color: black;
-        text-shadow: 1px 1px black;
         font-size: .85rem;
         padding: none;
         margin: none;
@@ -224,14 +217,14 @@ ul#questionsUl {
     ul,
     div#questionsSection {
         font-size: 1rem;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: "Lucida Console", "Courier New", monospace;
         text-align: center;
         align-items: center;
     }
 
     #questionli {
         font-size: 1rem;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: "Lucida Console", "Courier New", monospace;
         text-align: center;
         align-items: center;
         margin-left: 0px;
