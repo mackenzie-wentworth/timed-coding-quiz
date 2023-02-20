@@ -284,8 +284,17 @@ function showHighScores() {
     var ul = document.querySelector("#highScoresUl");
     ul.innerHTML = "";
 
+    var clearScoresButton = document.createElement("button");
+    clearScoresButton.setAttribute("class", "btn btn-light");
+    clearScoresButton.setAttribute("type", "clearScores");
+    clearScoresButton.setAttribute("id", "clearScores");
+    clearScoresButton.textContent = "Clear Scores";
+
 
     questionsSection.appendChild(h2El);
+    questionsSection.appendChild(clearScoresButton);
+
+    
 
     for (let i = 0; i < allScores.length; i++) {
         const el = allScores[i].initials + " " + allScores[i].score;

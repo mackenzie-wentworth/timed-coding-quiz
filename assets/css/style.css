@@ -166,7 +166,7 @@ div#questionsSection::after {
 input#Initials {
     text-align: center;
     background-color: white;
-    color: green;
+    color: black;
     outline: none !important;
 }
 
@@ -184,6 +184,11 @@ ul#questionsUl {
 }
 
 #submit {
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+#clearScores {
     margin-left: 10px;
     margin-bottom: 4px;
 }
