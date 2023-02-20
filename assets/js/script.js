@@ -31,14 +31,29 @@ var penalty = 10;
 
 var questions = [
     {
-        title: "This is Question One",
-        options: ["choice A", "choice B", "choice C", "choice D"],
-        answer: "choice A"
+        title: "The 'function' and 'var' are known as: ",
+        options: ["Keywords", "Data types", "Declaration statements", "Prototypes"],
+        answer: "Declaration statements"
     },
     {
-        title: "This is Question Two",
-        options: ["choice A", "choice B", "choice C", "choice D"],
-        answer: "choice B"
+        title: "Which of the following variables takes precedence over the others if the names are the same?",
+        options: ["Global variable", "The local element", "The two of the above", "None of the above"],
+        answer: "The local element"
+    },
+    {
+        title: "Which one of the following is the correct way for calling the JavaScript code?",
+        options: ["Preprocessor","Triggering Event", "RMI", "Function/Method"],
+        answer: "Function/Method"
+    },
+    {
+        title: "Choose the correct snippet from the following to check if the variable 'a' is not equal the 'NULL':",
+        options: ["if(a!==null)", "if (a!)", "if(a!null)", "if(!a!null"],
+        answer: "if(a!==null)"
+    },
+    {
+        title: "Which one of the following is used for the calling a function or a method in the JavaScript:",
+        options: ["Property Access Expression", "Functional expression", "Invocation expression", "Primary Expression"],
+        answer: "Invocation expression"
     },
 ]
 
