@@ -23,6 +23,7 @@ The following image displays the web application's homescreen appearance before 
 
 ![An image of the beginning screen when a user enters the web application for the JavaScript Coding Quiz Challenge.](./assets/images/coding-quiz-deployed-webpage.png)
 
+
 ## Credits
 
 ### JavaScript Questions:
