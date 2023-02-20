@@ -1,0 +1,238 @@
+* {
+    background-color: white;
+}
+
+/* Global */
+html {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+:root {
+    --indigo: #4B0082;
+    --white: white;
+}
+
+body {
+
+    background-color: white;
+}
+
+header {
+    color: var(--indigo);
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1.left {
+    color: var(--indigo);
+    padding-left: 20px;
+    font-size: 2.0rem;
+    display: flex;
+}
+
+header h1.right {
+    color: var(--indigo);
+    padding-right: 20px;
+    font-size: 2.0rem;
+    display: flex;
+}
+
+/* quiz  */
+.quiz {
+    width: 900px;
+}
+
+ul,
+li,
+h1,
+p,
+div {
+    color: black;
+    background-color: white;
+}
+
+ul,
+li {
+    text-align: center;
+    list-style-type: none;
+    background-color: white;
+}
+
+.card-body,
+p.text {
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.btn {
+    background-color: var(--indigo);
+    border-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+/* First Page CSS */
+
+#quizIntro {
+    padding-top: 70px;
+}
+
+
+
+/* Question Section CSS */
+h2,
+div#questionSection {
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1em;
+
+}
+
+ul,
+div#questionsSection {
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 1.25em;
+    cursor: pointer;
+    outline: none !important;
+    border-color: #000000;
+
+}
+
+ul,
+div#questionsSection::after {
+    background-color: white;
+    padding-top: 20px;
+
+}
+
+#questionli {
+    margin: 10px;
+    color: white;
+    background-color: var(--indigo);
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1em;
+    margin-left: 300px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#answerDiv {
+    padding-top: 5px;
+    text-align: center;
+}
+
+#scoresRow {
+    padding-top: 100px;
+}
+
+/* JS created elements styling */
+#h1El {
+    padding-top: 50x;
+    text-align: center;
+    color: var(--indigo);
+}
+
+#pEl {
+    padding-top: 60px;
+    text-align: center;
+}
+
+#pEl2 {
+    text-align: center;
+}
+
+#h2El {
+    padding-top: 90px;
+    color: var(--indigo);
+    text-align: center;
+}
+
+#enterInitials,
+input#Initials {
+    text-align: center;
+    background-color: white;
+    color: black;
+    outline: none !important;
+}
+
+ul#highScoresUl,
+ul#questionsUl {
+    padding-top: 0px;
+    text-align: center;
+    align-items: center;
+}
+
+#initials {
+    text-align: center;
+    background-color: white;
+    width: 60px;
+}
+
+#submit {
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+#clearScores {
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+#home {
+    margin-bottom: 80px;
+    margin-top: 120px;
+}
+
+#content-wrap {
+    padding-bottom: .5rem;
+    /* Footer height */
+}
+
+/* Smaller screens */
+@media (max-width: 1050px) {
+    div.hometimer {
+        font-size: .85;
+    }
+
+    .card-body,
+    p.text {
+        background-color: white;
+        color: black;
+        font-size: .85rem;
+        padding: none;
+        margin: none;
+    }
+
+
+    ul,
+    div#questionsSection {
+        font-size: 1rem;
+        font-family: "Lucida Console", "Courier New", monospace;
+        text-align: center;
+        align-items: center;
+    }
+
+    #questionli {
+        font-size: 1rem;
+        font-family: "Lucida Console", "Courier New", monospace;
+        text-align: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+}
