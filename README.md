@@ -5,7 +5,6 @@ To view the JavaScript Coding Quiz Challenge web application, please visit the f
 
 
 ## The Task
-
 For this week's challenge, I was tasked to build a code from scratch to create a timed coding quiz for users to test their knowledge on JavaScript fundamentals. To produce the styling and functionality of the web application, I used JavaScript and CSS with HTML to include the following items:
 
 * Beginning homescreen with instructions and a 'start' button to begin the timed quiz
